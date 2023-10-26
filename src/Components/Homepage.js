@@ -10,7 +10,7 @@ export default function Homepage() {
     e.preventDefault();
     // send data to backend here
     try {
-      let result = await fetch("https://tushardev.onrender.com/signUp", {
+      let result = await fetch("https://tushardev-api.onrender.com/signUp", {
         method: "post",
         body: JSON.stringify({ name, email, message }),
         headers: {

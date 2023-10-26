@@ -691,7 +691,11 @@ footer {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(auto, 1fr);
     grid-gap: 50px;
+<<<<<<< HEAD
     justify-content: center;
+=======
+    justify-content:center;
+>>>>>>> a01aadd8ad93cd763e36d7f62c1109fb7a60e2ae
   }
 
   #role-body {
@@ -700,6 +704,7 @@ footer {
     grid-gap: 20px;
     width: 100%;
     margin: auto;
+    font-size: 1rem;
   }
 
   #skill-types {
@@ -791,6 +796,7 @@ footer {
     grid-gap: 20px;
     width: 100%;
     margin: auto;
+    font-size: 1rem;
   }
 
   #skill-types {
