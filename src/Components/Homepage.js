@@ -24,7 +24,7 @@ export default function Homepage() {
       if (result && form.checkValidity()) {
         swal({
           title: "Oh Great!",
-          text: "Thanks for reaching out. I'll get back to your shortly! \n You can explore my socials for now",
+          text: "Thanks for reaching out. I'll get back to you shortly! \n You can explore my socials for now",
           icon: "success",
           button: "Yesssss!",
         });
@@ -207,7 +207,7 @@ export default function Homepage() {
 
           <p>
             I'm a highly motivated individual with a passion for learning new
-            technologies. I am a full-stack developer based in India with
+            technologies. I'm a full-stack developer based in India with
             expertise in the{" "}
             <b>MERN (MongoDB, Express.js, React.js, Node.js) stack</b>, and a
             strong passion for crafting exceptional web applications and
@@ -219,7 +219,7 @@ export default function Homepage() {
             <br />
             My insatiable curiosity and unwavering enthusiasm are what fuel my
             drive to remain at the forefront of technological advancements
-            within the industry. I am committed to continuous learning and I
+            within the industry. I'm committed to continuous learning and I
             thrive on the opportunity to employ the most cutting-edge
             technologies to engineer innovative solutions. If you are in search
             of a developer with a versatile skill set and an unrelenting
