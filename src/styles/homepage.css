@@ -684,6 +684,7 @@ footer {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(auto, 1fr);
     grid-gap: 50px;
+    justify-content:center;
   }
 
   #role-body {
