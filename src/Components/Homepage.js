@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "../styles/homepage.css";
 import swal from "sweetalert";
+import { Link } from "react-router-dom";
+import projects from "./projectsData";
 
 export default function Homepage() {
   const [name, setName] = useState("");
@@ -302,84 +304,23 @@ export default function Homepage() {
         <h2>PROJECTS</h2>
         <hr />
         <div id="project-list">
-          <div className="projectGrid">
-            <div className="imgContainer">
-              <div className="imgMain" id="project1 imgMain"></div>
+          {projects.map((project) => (
+            <div className="projectGrid" key={project.id}>
+              <div className="imgContainer">
+                <img
+                  className="imgMain"
+                  src={project.img}
+                  alt="projectImg"
+                  key={project.img}
+                />
+              </div>
+              <Link to={`/project/${project.id}`}>
+                <h4>{project.title}</h4>
+                <br />
+                <button className="btn">Read More</button>
+              </Link>
             </div>
-            <h4>Skyline Realty</h4>
-            <button className="btn">
-              <a href={() => false}>Explore on Github</a>
-            </button>
-            <br />
-            <button className="btn">
-              <a href={() => false}>Explore Site</a>
-            </button>
-          </div>
-          <div className="projectGrid">
-            <div className="imgContainer">
-              <div className="imgMain" id="project2 imgMain"></div>
-            </div>
-            <h4>Project Name</h4>
-            <button className="btn">
-              <a href={() => false}>Explore on Github</a>
-            </button>
-            <br />
-            <button className="btn">
-              <a href={() => false}>Explore Site</a>
-            </button>
-          </div>
-          <div className="projectGrid">
-            <div className="imgContainer">
-              <div className="imgMain" id="project3 imgMain"></div>
-            </div>
-            <h4>Project Name</h4>
-            <button className="btn">
-              <a href={() => false}>Explore on Github</a>
-            </button>
-            <br />
-            <button className="btn">
-              <a href={() => false}>Explore Site</a>
-            </button>
-          </div>
-          <div className="projectGrid">
-            <div className="imgContainer">
-              <div className="imgMain" id="project4 imgMain"></div>
-            </div>
-            <h4>Project Name</h4>
-            <button className="btn">
-              <a href={() => false}>Explore on Github</a>
-            </button>
-            <br />
-            <button className="btn">
-              <a href={() => false}>Explore Site</a>
-            </button>
-          </div>
-          <div className="projectGrid">
-            <div className="imgContainer">
-              <div className="imgMain" id="project5 imgMain"></div>
-            </div>
-            <h4>Project Name</h4>
-            <button className="btn">
-              <a href={() => false}>Explore on Github</a>
-            </button>
-            <br />
-            <button className="btn">
-              <a href={() => false}>Explore Site</a>
-            </button>
-          </div>
-          <div className="projectGrid">
-            <div className="imgContainer">
-              <div className="imgMain" id="project6 imgMain"></div>
-            </div>
-            <h4>Project Name</h4>
-            <button className="btn">
-              <a href={() => false}>Explore on Github</a>
-            </button>
-            <br />
-            <button className="btn">
-              <a href={() => false}>Explore Site</a>
-            </button>
-          </div>
+          ))}
         </div>
       </div>
       <div id="contact">

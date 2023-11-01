@@ -1,0 +1,327 @@
+body {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif, "Chakra Petch", sans-serif, "Merriweather",
+    serif, "Fredericka the Great", serif, "Cinzel", serif, "Cinzel Decorative",
+    serif, "Quintessential", serif, "Zen Maru Gothic", serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background-color: #f9f7f7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+nav,
+navbar-nav,
+nav-item {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  position: -webkit-sticky;
+}
+.navbar {
+  background-color: #222831;
+  color: white;
+  padding: 0px 10px;
+  font-family: "Cinzel", serif;
+  font-style: normal;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  color: white;
+  display: none;
+}
+
+.navbar-toggler {
+  transform: scale(0.9);
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-brand {
+    display: block;
+  }
+}
+
+.navbar ul {
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  margin: auto;
+  list-style: none;
+}
+.navbar li {
+  display: inline-block;
+  margin: 5px 20px;
+  padding: 5px;
+  text-align: center;
+}
+.navbar li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar li > a:hover {
+  color: crimson;
+}
+
+.navbar li > a:active {
+  color: crimson;
+}
+
+/* Project Info */
+/* Image */
+.img-Container {
+  width: 400px;
+  height: 250px;
+  overflow: hidden;
+  border: none;
+  border-radius: 5px;
+  box-shadow: -5px -5px 30px 5px crimson, 5px 5px 30px 5px aqua;
+  margin: 50px;
+  float: left;
+}
+
+.projectInfo {
+  width: 70%;
+  background-color: #f9f7f7;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.project-Img {
+  position: relative;
+  top: -25px;
+  width: 450px;
+  height: 280px;
+}
+
+.project-Title {
+  justify-content: center;
+  font-family: "Cinzel Decorative", serif;
+  font-size: 4rem;
+  margin-bottom: 15%;
+  padding-top: 12%;
+  width: auto;
+}
+
+.projectInfo p {
+  font-family: "Zen Maru Gothic", serif;
+  margin: 20px;
+  font-weight: 400;
+}
+
+/* Button */
+.projectInfo button {
+  border: 2px solid crimson;
+  margin: 30px 50px;
+  text-align: center;
+  color: var(--color);
+  transition: 0.25s;
+  background-color: whitesmoke;
+}
+
+.projectInfo a {
+  text-decoration: none;
+  color: var(--color);
+}
+
+.projectInfo button:hover,
+.projectInfo button:focus {
+  border: 2px solid crimson;
+  margin: 30px 50px;
+  box-shadow: 0 0.5em 0.5em -0.2em crimson;
+  transform: translateY(-0.25em);
+}
+
+/* Footer */
+.top-btn {
+  z-index: 1;
+  height: 50px;
+  width: 50px;
+  background-color: crimson;
+  text-align: center;
+  margin: auto;
+  border-radius: 5px;
+  position: relative;
+  left: 0px;
+  top: 25px;
+}
+
+.top-btn:hover {
+  background-color: crimson;
+  filter: brightness(150%);
+}
+
+.top-btn img {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: 4px;
+  top: 3px;
+  filter: invert(100%) brightness(112%) contrast(103%);
+}
+
+#socials {
+  text-align: center;
+  background-color: #282a3a;
+}
+
+#socials hr {
+  border-top: 5px solid #0f0f0f;
+  margin: 0;
+  padding: 30px 0 30px 0;
+}
+
+.inline-social {
+  display: inline-block;
+  width: 50px;
+  padding: 10px;
+  margin: 10px 20px;
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: #0f0f0f;
+  transition: 0.3s ease-in-out;
+}
+
+#socials a {
+  text-decoration: none;
+}
+
+.inline-social:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+
+/*************************FOOTER*******************************/
+footer {
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-family: "Chakra Petch", sans-serif;
+  padding: 10px;
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-width: 1440px) {
+  .img-Container {
+    width: 80%;
+    height: 10%;
+    box-shadow: -5px -5px 30px 5px crimson, 5px 5px 30px 5px aqua;
+    margin: 10%;
+    justify-content: center;
+  }
+
+  .projectInfo {
+    width: 95%;
+  }
+
+  .project-Img {
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .project-Title {
+    font-size: 2rem;
+    margin-bottom: 5%;
+  }
+
+  .projectInfo p {
+    font-size: 1em;
+  }
+
+  .projectInfo button {
+    margin: 10px 50px;
+  }
+
+  .projectInfo button:hover,
+  .projectInfo button:focus {
+    margin: 10px 50px;
+  }
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-width: 576px) and (orientation: portrait) {
+  .img-Container {
+    width: 80%;
+    height: 10%;
+    box-shadow: -5px -5px 30px 5px crimson, 5px 5px 30px 5px aqua;
+    margin: 10%;
+    justify-content: center;
+  }
+
+  .projectInfo {
+    width: 95%;
+  }
+
+  .project-Img {
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .project-Title {
+    font-size: 2rem;
+    margin-bottom: 5%;
+  }
+
+  .projectInfo p {
+    font-size: 1rem;
+  }
+
+  .projectInfo button {
+    margin: 10px 50px;
+  }
+
+  .projectInfo button:hover,
+  .projectInfo button:focus {
+    margin: 10px 50px;
+  }
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 768px) and (orientation: landscape) {
+  .img-Container {
+    width: 80%;
+    height: 10%;
+    box-shadow: -5px -5px 30px 5px crimson, 5px 5px 30px 5px aqua;
+    margin: 10%;
+    justify-content: center;
+  }
+
+  .projectInfo {
+    width: 95%;
+  }
+
+  .project-Img {
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .project-Title {
+    font-size: 2rem;
+    margin-bottom: 5%;
+  }
+
+  .projectInfo p {
+    font-size: 1rem;
+  }
+
+  .projectInfo button {
+    margin: 10px 50px;
+  }
+
+  .projectInfo button:hover,
+  .projectInfo button:focus {
+    margin: 10px 50px;
+  }
+}
