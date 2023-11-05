@@ -96,10 +96,14 @@ export default function ProjectInfo() {
         <p>{selectedProject.desc2}</p>
         <p>{selectedProject.desc3}</p>
         <button className="btn">
-          <a href={selectedProject.githubLink}>View on GitHub</a>
+          <a href={selectedProject.githubLink} target="_blank">
+            View on GitHub
+          </a>
         </button>
         <button className="btn">
-          <a href={selectedProject.liveLink}>View Live Site</a>
+          <a href={selectedProject.liveLink} target="_blank">
+            View Live Site
+          </a>
         </button>
       </div>
       <div id="socials">

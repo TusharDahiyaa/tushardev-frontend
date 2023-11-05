@@ -14,13 +14,16 @@ const projects = [
   },
   {
     id: 2,
-    img: "../../images/placeholder-image.jpg",
-    title: "Project 2",
-    desc1: "Description for Project 2.",
-    desc2: "Additional information for Project 2.",
-    desc3: "More details about Project 2.",
-    githubLink: "https://github.com/yourusername/project2",
-    liveLink: "https://yourwebsite/project2",
+    img: "../../images/TekkenClash-ss.png",
+    title: "Tekken Clash",
+    desc1:
+      "Immerse yourself in a thrilling gaming adventure with our Takken Clash.",
+    desc2:
+      "This 2D side-scrolling game challenges you to control a fearless warrior character as you navigate through a dynamic world filled with obstacles. The goal? Collect as many points as you can while avoiding collisions with obstacles to survive.",
+    desc3:
+      "Built using HTML, CSS, and JavaScript, our game project showcases the power of front-end technologies. It leverages keyframes and animations to create the illusion of movement and adds dynamic interactivity. The use of audio elements enhances the immersive experience, providing audio cues for in-game events. The project follows best practices for structuring the code and organizing game assets.",
+    githubLink: "https://github.com/TusharDahiyaa/Tekken-Clash.git",
+    liveLink: "https://tekkenclash.vercel.app",
   },
   {
     id: 3,
