@@ -27,13 +27,12 @@ const projects = [
   },
   {
     id: 3,
-    img: "../../images/placeholder-image.jpg",
-    title: "Project 3",
-    desc1: "Description for Project 3.",
-    desc2: "Additional information for Project 3.",
-    desc3: "More details about Project 3.",
-    githubLink: "https://github.com/yourusername/project3",
-    liveLink: "https://yourwebsite/project3",
+    img: "../../images/VocalBlend.png",
+    title: "VocalBlend Convert",
+    desc1:
+      "Web application utilizing the Web Speech API for speech-to-text conversion. Select from a variety of languages and dialects for real-time transcription. User-friendly interface with Start, Stop, and Clear buttons for ease of use.",
+    githubLink: "https://github.com/TusharDahiyaa/VocalBlend-Convert.git",
+    liveLink: "https://vocalblend-convert.vercel.app",
   },
   {
     id: 4,
