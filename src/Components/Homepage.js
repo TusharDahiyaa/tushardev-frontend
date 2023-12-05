@@ -129,6 +129,17 @@ export default function Homepage() {
               </h1>
             </div>
           </div>
+          <div className="row">
+            <div className="col-md-12 text-center">
+              <a
+                className="btn btn-outline-info fs-3 text border-1 px-4"
+                href="./TusharDahiya Resume 07-11-2023.pdf"
+                download="TusharDahiya Resume 07-11-2023.pdf"
+              >
+                Download Resume
+              </a>
+            </div>
+          </div>
         </div>
       </div>
       <header className="sticky-top">

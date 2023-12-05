@@ -78,9 +78,15 @@ html {
 
 .start-page h1 {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.start-page a {
+  position: absolute;
+  top: 50%;
+  left: 40%;
 }
 
 .animate-character {
@@ -563,7 +569,14 @@ footer {
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 70%;
     font-size: 40px;
+  }
+
+  .start-page a {
+    position: absolute;
+    top: 35%;
+    left: 32%;
   }
 
   #about-image {
@@ -621,6 +634,13 @@ footer {
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  .start-page a {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    font-size: 100% !important;
   }
 
   .animate-character {
@@ -711,9 +731,16 @@ footer {
   }
   .start-page h1 {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 30px;
+  }
+
+  .start-page a {
+    position: absolute;
+    top: 65%;
+    left: 32%;
   }
 
   .animate-character {
