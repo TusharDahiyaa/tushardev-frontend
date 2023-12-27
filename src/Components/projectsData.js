@@ -1,6 +1,19 @@
 const projects = [
   {
     id: 1,
+    img: "../../images/playtechinsider.jpg",
+    title: "Play Tech Insider",
+    desc1:
+      "Level up your tech game with this immersive e-commerce experience, built with cutting-edge MERN stack technology.",
+    desc2:
+      "Explore React's blazing-fast UI, Node.js and Express powering the backend, and secure data management with MongoDB.",
+    desc3:
+      "Customize your tech journey with personalized dashboards, connect with fellow enthusiasts, and discover exclusive deals.",
+    githubLink: "https://github.com/TusharDahiyaa/playtechinsider.git",
+    liveLink: "https://playtechinsider.onrender.com",
+  },
+  {
+    id: 2,
     img: "../../images/NoteCraft-ss.png",
     title: "Note Craft",
     desc1:
@@ -13,7 +26,7 @@ const projects = [
     liveLink: "https://notecraftnotes.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     img: "../../images/TekkenClash-ss.png",
     title: "Tekken Clash",
     desc1:
@@ -26,7 +39,7 @@ const projects = [
     liveLink: "https://tekkenclash.vercel.app",
   },
   {
-    id: 3,
+    id: 4,
     img: "../../images/VocalBlend.png",
     title: "VocalBlend Convert",
     desc1:
@@ -34,16 +47,7 @@ const projects = [
     githubLink: "https://github.com/TusharDahiyaa/VocalBlend-Convert.git",
     liveLink: "https://vocalblend-convert.vercel.app",
   },
-  {
-    id: 4,
-    img: "../../images/placeholder-image.jpg",
-    title: "Project 4",
-    desc1: "Coming Soon..",
-    // desc2: "Additional information for Project 4.",
-    // desc3: "More details about Project 4.",
-    githubLink: "https://github.com/yourusername/project4",
-    liveLink: "https://yourwebsite/project4",
-  },
+
   {
     id: 5,
     img: "../../images/placeholder-image.jpg",
