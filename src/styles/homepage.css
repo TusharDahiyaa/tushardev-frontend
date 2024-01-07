@@ -637,7 +637,6 @@ footer {
   }
 
   .start-page a {
-    position: absolute;
     top: 40%;
     left: 25%;
     font-size: 100% !important;
