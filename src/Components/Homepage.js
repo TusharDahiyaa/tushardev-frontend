@@ -284,13 +284,13 @@ export default function Homepage() {
           <div className="card">
             <h3>Frontend</h3>
             <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>
+              <li>HTML</li>
+              <li>CSS</li>
               <li>JavaScript</li>
-              <li>ReactJS</li>
+              <li>React JS</li>
               <li>TypeScript</li>
-              <li>Bootstrap 5</li>
-              <li>Tailwind CSS</li>
+              <li>Bootstrap</li>
+              <li>Tailwind</li>
               <li>jQuery</li>
             </ul>
           </div>
@@ -307,7 +307,7 @@ export default function Homepage() {
           <div className="card">
             <h3>Database</h3>
             <ul>
-              <li>SQL</li>
+              <li>MySQL</li>
               <li>MongoDB</li>
               <li>PostgreSQL</li>
             </ul>
@@ -315,7 +315,8 @@ export default function Homepage() {
           <div className="card">
             <h3>DevOps</h3>
             <ul>
-              <li>Git</li>
+              <li>GIT</li>
+              <li>Docker</li>
               <li>GitHub</li>
               <li>Linux</li>
             </ul>
