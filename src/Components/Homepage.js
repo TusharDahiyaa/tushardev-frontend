@@ -288,16 +288,18 @@ export default function Homepage() {
               <li>CSS3</li>
               <li>JavaScript</li>
               <li>ReactJS</li>
-              <li>Typescript</li>
+              <li>TypeScript</li>
               <li>Bootstrap 5</li>
+              <li>Tailwind CSS</li>
+              <li>jQuery</li>
             </ul>
           </div>
           <div className="card">
             <h3>Backend</h3>
             <ul>
+              <li>Java</li>
               <li>Node.js</li>
               <li>Express.js</li>
-              <li>MongoDB</li>
               <li>Mongoose</li>
               <li>Restful APIs</li>
             </ul>
@@ -305,8 +307,17 @@ export default function Homepage() {
           <div className="card">
             <h3>Database</h3>
             <ul>
-              <li>SQL (MySQL)</li>
-              <li>NoSQL (MongoDB)</li>
+              <li>SQL</li>
+              <li>MongoDB</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </div>
+          <div className="card">
+            <h3>DevOps</h3>
+            <ul>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Linux</li>
             </ul>
           </div>
         </div>
