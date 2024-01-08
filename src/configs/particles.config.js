@@ -5,7 +5,7 @@ const particlesConfig = {
     composite: "source-over",
     cover: {
       color: {
-        value: "#fff",
+        value: "#191919",
       },
       opacity: 1,
     },
