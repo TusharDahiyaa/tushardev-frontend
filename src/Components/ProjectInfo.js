@@ -83,7 +83,7 @@ export default function ProjectInfo() {
           </div>
         </nav>
       </header>
-      <div className="projectInfo container">
+      <div className="projectInfo container text-dark">
         <div className="img-Container">
           <img
             className="project-Img"
