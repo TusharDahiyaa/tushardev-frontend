@@ -14,6 +14,18 @@ const projects = [
   },
   {
     id: 2,
+    img: "../../images/skylinerealty_img.jpg",
+    title: "Skyline Realty",
+    desc1: "Realtor website focused on business growth and audience outreach.",
+    desc2:
+      "Built using HTML, CSS, JavaScript, Bootstrap for frontend and Node.js and Express for backend.",
+    desc3:
+      "This page boasts 100% SEO optimization and a perfect score in best practices according to Google Page Insights.",
+    githubLink: "https://github.com/TusharDahiyaa/skylinerealty",
+    liveLink: "https://helloskylinerealty.vercel.app",
+  },
+  {
+    id: 3,
     img: "../../images/NoteCraft-ss.png",
     title: "Note Craft",
     desc1:
@@ -26,7 +38,7 @@ const projects = [
     liveLink: "https://notecraftnotes.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     img: "../../images/TekkenClash-ss.png",
     title: "Tekken Clash",
     desc1:
@@ -39,24 +51,13 @@ const projects = [
     liveLink: "https://tekkenclash.vercel.app",
   },
   {
-    id: 4,
+    id: 5,
     img: "../../images/VocalBlend.png",
     title: "VocalBlend Convert",
     desc1:
       "Web application utilizing the Web Speech API for speech-to-text conversion. Select from a variety of languages and dialects for real-time transcription. User-friendly interface with Start, Stop, and Clear buttons for ease of use.",
     githubLink: "https://github.com/TusharDahiyaa/VocalBlend-Convert.git",
     liveLink: "https://vocalblend-convert.vercel.app",
-  },
-
-  {
-    id: 5,
-    img: "../../images/placeholder-image.jpg",
-    title: "Project 5",
-    desc1: "Coming Soon..",
-    // desc2: "Additional information for Project 5.",
-    // desc3: "More details about Project 5.",
-    githubLink: "https://github.com/yourusername/project5",
-    liveLink: "https://yourwebsite/project5",
   },
   {
     id: 6,
