@@ -26,6 +26,19 @@ const projects = [
   },
   {
     id: 3,
+    img: "../../images/cardify.jpg",
+    title: "Cardify",
+    desc1:
+      "Upgrade your connections with stunning, secure e-cards built with cutting-edge tech. ",
+    desc2:
+      "Craft your digital persona using Vite, React, and Tailwind CSS for blazing-fast performance and modern designs. ✨",
+    desc3:
+      "Passwords are encrypted with Node.js and Express, putting security at your fingertips.  Join the beta and network like tomorrow: https://cardify-ocky.onrender.com",
+    githubLink: "https://github.com/tushardahiyaa/cardify",
+    liveLink: "https://cardify-ocky.onrender.com",
+  },
+  {
+    id: 4,
     img: "../../images/NoteCraft-ss.png",
     title: "Note Craft",
     desc1:
@@ -36,19 +49,6 @@ const projects = [
       "The app's JavaScript functionality empowers users to efficiently organize their notes, search for specific content, and keep their thoughts and tasks in one convenient place. It's a valuable tool for students, professionals, or anyone seeking to stay organized and productive. Whether you're compiling to-do lists, taking lecture notes, or recording creative ideas, this web application streamlines the process. It's an excellent addition to your web-based productivity tools, as it requires no downloads or installations. Begin using this HTML, CSS, and JavaScript web app today to boost productivity and keep your thoughts organized and accessible in your browser.",
     githubLink: "https://github.com/TusharDahiyaa/Note-Craft",
     liveLink: "https://notecraftnotes.vercel.app/",
-  },
-  {
-    id: 4,
-    img: "../../images/TekkenClash-ss.png",
-    title: "Tekken Clash",
-    desc1:
-      "Immerse yourself in a thrilling gaming adventure with our Takken Clash.",
-    desc2:
-      "This 2D side-scrolling game challenges you to control a fearless warrior character as you navigate through a dynamic world filled with obstacles. The goal? Collect as many points as you can while avoiding collisions with obstacles to survive.",
-    desc3:
-      "Built using HTML, CSS, and JavaScript, our game project showcases the power of front-end technologies. It leverages keyframes and animations to create the illusion of movement and adds dynamic interactivity. The use of audio elements enhances the immersive experience, providing audio cues for in-game events. The project follows best practices for structuring the code and organizing game assets.",
-    githubLink: "https://github.com/TusharDahiyaa/Tekken-Clash.git",
-    liveLink: "https://tekkenclash.vercel.app",
   },
   {
     id: 5,
