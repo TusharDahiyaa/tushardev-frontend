@@ -133,7 +133,7 @@ export default function Homepage() {
             <div className="col-md-12 text-center">
               <a
                 className="btn btn-outline-info fs-3 text border-1 px-4 mx-auto"
-                href="./Tushar Dahiya Resume 02-01-2024.pdf"
+                href="./Tushar Dahiya Resume 28-01-2024.pdf"
                 download="Tushar Dahiya Resume 2024.pdf"
               >
                 Download Resume
