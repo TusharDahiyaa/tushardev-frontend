@@ -360,7 +360,7 @@ h3 {
   height: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   gap: 30px;
   margin: auto;
   padding: 50px 30px;
@@ -405,7 +405,7 @@ h3 {
 }
 
 .imgMain:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   filter: brightness(120%);
 }
 

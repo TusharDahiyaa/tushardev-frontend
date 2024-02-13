@@ -437,7 +437,7 @@ export default function Homepage() {
         </p>
         <footer>
           <p>
-            <small>TUSHAR DAHIYA &copy; 2023</small>
+            <small>TUSHAR DAHIYA &copy; {new Date().getFullYear()}</small>
           </p>
         </footer>
       </div>
